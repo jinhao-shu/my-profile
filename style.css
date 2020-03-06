@@ -15,13 +15,15 @@ h1, h2, h3
 		font-family: font-family: 'Roboto', sans-serif; 
 	}
 
-h1	{
+h1	
+	{
 		color: #575f7d;
 		font-size: 32px;
 		font-weight: 900;
 	}
  
-h2	{
+h2	
+	{
 		color: #73ce90;
 		font-size: 20px;
 		font-weight: lighter;
@@ -44,9 +46,7 @@ a:hover
 	}
 
 
-
 /* Custom design with class (90% of your design) */
-
 
 .container 
 	{
@@ -74,12 +74,10 @@ a:hover
 		text-align: center;	
 	}
 
-
 .img-circle 
 	{
 		border-radius: 50%
 	}
-
 
 .btn-blue	
 	{
@@ -102,7 +100,6 @@ a:hover
 		 padding-left: 0px;
 	}
 
-
 .list-inline li 
 	{
 		display: inline;
@@ -120,6 +117,7 @@ a:hover
 		color: black;
 	} 
 
+
 /* Design adjustment using id (1% design remaining) */
 
 #introduction p
@@ -129,24 +127,5 @@ a:hover
 
 #img-small
 	{
-			width: 150px
+		width: 150px
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
