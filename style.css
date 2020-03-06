@@ -50,18 +50,35 @@ a:hover
 
 .container 
 	{
-		max-width: : 700px;
+		max-width: : 960px;
 		margin: 40px auto;
 	}
 
-@media (max-width: 760px) 
+@media (max-width: 2960px) 
 	{
-		.container {width: 600px;}
+
+  		.container 
+  			{
+    			width: 900px;
+  			}
 	}
 
-@media (max-width: 500px) 
+@media (max-width: 899px) 
 	{
-		.container {width: 400px;}
+
+  		.container 
+  			{
+    			width: 500px;
+  			}
+	}
+
+@media (max-width: 540px) 
+	{
+
+  		.container 
+  			{
+    			width: 300px;
+  			}
 	}
 
 .card-white 
@@ -74,10 +91,12 @@ a:hover
 		text-align: center;	
 	}
 
+
 .img-circle 
 	{
 		border-radius: 50%
 	}
+
 
 .btn-blue	
 	{
@@ -99,6 +118,7 @@ a:hover
 		 list-style: none;
 		 padding-left: 0px;
 	}
+
 
 .list-inline li 
 	{
@@ -127,5 +147,5 @@ a:hover
 
 #img-small
 	{
-		width: 150px
+			width: 150px
 	}
